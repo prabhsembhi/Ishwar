@@ -3,6 +3,8 @@ import Navigation from "./Navigation";
 import HomePage from "./HomePage";
 import About from "./About";
 import Products from "./Products";
+import Contact from "./Contact";
+import Footer from "./Footer";
 
 import { Container, Row, Col } from "react-bootstrap";
 //bootstrap css
@@ -15,6 +17,8 @@ function App() {
       <HomePage />
       <About />
       <Products />
+      <Contact />
+      <Footer />
     </div>
   );
 }

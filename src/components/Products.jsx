@@ -8,7 +8,7 @@ function Products() {
     <section id="products">
       <Container fluid="true">
         <Row>
-          <h4 className="product_Heading">Our Products</h4>
+          <h3 className="product_Heading">Our Products</h3>
         </Row>
         <Row>
           <Col>
