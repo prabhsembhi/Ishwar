@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Ishwar/static/css/main.ce7c2163.chunk.css",
+    "main.js": "/Ishwar/static/js/main.47f34fca.chunk.js",
+    "main.js.map": "/Ishwar/static/js/main.47f34fca.chunk.js.map",
+    "runtime-main.js": "/Ishwar/static/js/runtime-main.0a6cd714.js",
+    "runtime-main.js.map": "/Ishwar/static/js/runtime-main.0a6cd714.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/Ishwar/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.c5b51ba5.chunk.js": "/Ishwar/static/js/2.c5b51ba5.chunk.js",
+    "static/js/2.c5b51ba5.chunk.js.map": "/Ishwar/static/js/2.c5b51ba5.chunk.js.map",
+    "index.html": "/Ishwar/index.html",
+    "precache-manifest.906c2876dae11662a59bf18f2884f7a9.js": "/Ishwar/precache-manifest.906c2876dae11662a59bf18f2884f7a9.js",
+    "service-worker.js": "/Ishwar/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/Ishwar/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.ce7c2163.chunk.css.map": "/Ishwar/static/css/main.ce7c2163.chunk.css.map",
+    "static/js/2.c5b51ba5.chunk.js.LICENSE.txt": "/Ishwar/static/js/2.c5b51ba5.chunk.js.LICENSE.txt",
+    "static/media/Asset 7.png": "/Ishwar/static/media/Asset 7.d6f0d653.png",
+    "static/media/Asset 8.png": "/Ishwar/static/media/Asset 8.aa25b879.png",
+    "static/media/Asset1.png": "/Ishwar/static/media/Asset1.601131f4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0a6cd714.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.c5b51ba5.chunk.js",
+    "static/css/main.ce7c2163.chunk.css",
+    "static/js/main.47f34fca.chunk.js"
+  ]
+}
