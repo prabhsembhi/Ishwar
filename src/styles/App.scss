@@ -15,7 +15,6 @@ h2 {
 }
 h3 {
   font-family: "Montserrat", sans-serif;
-  // font-size: 3.75rem;
 }
 
 p {
@@ -33,10 +32,41 @@ a {
   margin: 0;
 }
 
+////////////////media query for glowbal elements ////////////////
+@media only screen and (max-width: 1172px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2.2rem;
+  }
+  p {
+    font-size: 1.1rem;
+  }
+
+  a {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 570px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+
+  a {
+    font-size: 0.9rem;
+  }
+}
+
 /////////                Navigation                       ////////////////////
 .logo {
-  font-family: "Alegreya", serif;
-  font-size: 28px;
+  width: 150px;
 }
 
 .nav {
@@ -46,10 +76,17 @@ a {
   z-index: 2;
   left: 0;
   right: 0;
-  width: 80%;
+  width: 100%;
   margin: auto;
   z-index: 4;
   background-color: $secondary;
+}
+.nav_gradient {
+  width: 100%;
+  height: 10px;
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(to top, red, 1%, #ffffff);
 }
 
 .mr-auto {
@@ -85,6 +122,11 @@ a {
     visibility: hidden;
   }
 }
+@media (max-width: 570px) {
+  .nav {
+    width: 95%;
+  }
+}
 
 ////////////////      HomePage      ///////////////////
 #home {
@@ -98,6 +140,11 @@ a {
   position: relative;
   text-align: center;
   top: 50%;
+}
+@media (max-width: 570px) {
+  #home {
+    width: 95%;
+  }
 }
 
 ///////// About //////////////////
@@ -150,6 +197,27 @@ a {
 .box3 {
   background-color: #ec823a;
 }
+@media (max-width: 570px) {
+  #about {
+    width: 95%;
+    margin-top: 2rem;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .img {
+    max-width: 100%;
+    float: none;
+  }
+}
+@media only screen and (max-width: 1120px) {
+  .strengths_Icons {
+    font-size: 2rem;
+    margin-right: 4px;
+  }
+  .strength_Boxes {
+    margin: 0.2rem;
+  }
+}
 
 /////// Products ////////////
 
@@ -175,7 +243,19 @@ a {
   padding: 1rem;
   margin: 3rem 0;
 }
+@media (max-width: 570px) {
+  #products {
+    width: 95%;
+  }
+}
 
+@media (max-width: 1024px) {
+  .img2 {
+    max-width: 100%;
+    padding: 0.5rem;
+    margin: 1.5rem 0;
+  }
+}
 ////////////////////   contacts ////////////////////
 #contact {
   width: 60%;
@@ -191,14 +271,11 @@ a {
   font-size: 1.18rem;
   color: $primary;
   text-decoration: none;
+  display: inline-block;
 }
 iframe {
   border-radius: 10px;
   float: right;
-  // filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale"); /* Firefox 10+ */
-  // filter: rgb(180, 180, 180); /* IE6-9 */
-  // -webkit-filter: grayscale(99%); /* Chrome 19+ & Safari 6+ */
-  // -webkit-backface-visibility: hidden; /* Fix for transition flickering */
 }
 hr {
   border: 1.5px solid grey;
@@ -209,6 +286,26 @@ hr {
   margin: 4rem;
 }
 
+@media (max-width: 800px) {
+  #contact {
+    width: 95%;
+    margin: auto;
+  }
+  #contact h2 {
+    // font-size: 2rem;
+  }
+  .contact_Icons {
+    font-size: 18px;
+    margin: 10px 10px 10px 0;
+    float: left;
+  }
+  .contact_links {
+    font-size: 1rem;
+  }
+  iframe {
+    float: none;
+  }
+}
 ////////////////////  Footer    ////////////////////
 #footer {
   width: 80%;
@@ -226,17 +323,19 @@ hr {
   font-size: 1rem;
 }
 .footer_contacts {
-  padding-left: 80px;
+  padding-left: 50px;
 }
 .footer_Icons {
   font-size: 1.2rem;
   margin: 10px;
+  float: left;
 }
 .footer_links {
   font-family: "Eczar", serif;
   font-size: 1rem;
   color: $primary;
   text-decoration: none;
+  display: inline-block;
 }
 .last_row {
   font-size: 0.9rem;
@@ -251,4 +350,24 @@ hr {
 }
 .developer a {
   font-size: 0.9rem;
+}
+@media (max-width: 570px) {
+  #footer {
+    width: 95%;
+  }
+}
+@media (max-width: 1030px) {
+  .footer_image {
+    width: 180px;
+  }
+  .footer_contacts {
+    padding-left: 10px;
+  }
+  .footer_col {
+    margin-top: 1rem;
+  }
+  .last_row {
+    font-size: 0.7rem;
+    padding: 1.5rem 0 0 0.3rem;
+  }
 }

@@ -11,8 +11,8 @@ function About() {
     <section id="about">
       <Container fluid="true">
         <Row>
-          <Col md={8} className="about_Description">
-            <h3>We Provide Quality for EVERYONE</h3>
+          <Col lg={true} className="about_Description">
+            <h2>We Provide Quality for EVERYONE</h2>
             <p>
               Ishwar mechanical works have been a promising choice for many
               industries, seeking a quality product on time. We believe in
@@ -27,26 +27,26 @@ function About() {
               as if today.
             </p>
           </Col>
-          <Col>
+          <Col lg={true}>
             <Image className="img" src={Asset1} />
           </Col>
         </Row>
         <Row className="strengths">
-          <Col className="strength_Boxes box1">
+          <Col md={true} className="strength_Boxes box1">
             <FaThumbsUp className="strengths_Icons" />
             <div className="strength_Names">
               <h4>Experience</h4>
               <p>60 years of Activiity</p>
             </div>
           </Col>
-          <Col className="strength_Boxes box2">
+          <Col md={true} className="strength_Boxes box2">
             <FaUsers className="strengths_Icons" />
             <div className="strength_Names">
               <h4>Team</h4>
               <p>Industry Professionals</p>
             </div>
           </Col>
-          <Col className="strength_Boxes box3">
+          <Col md={true} className="strength_Boxes box3">
             <FaCheck className="strengths_Icons" />
 
             <div className="strength_Names">

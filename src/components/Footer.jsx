@@ -15,21 +15,23 @@ function Footer() {
     <section id="footer">
       <Container fluid="true">
         <Row>
-          <Col>
+          <Col className="footer_col" md={true} lg={5}>
             <Image className="footer_image" src={jagjit2} />
             <div className="img_description">
               <h4>Our Founder</h4>
-              <p>Late Jagjit Singh Ji</p>
+              <p>
+                Late Sardar Jagjit Singh Ji <br /> (Giani Ji)
+              </p>
             </div>
           </Col>
-          <Col>
+          <Col className="footer_col" md={true} lg={4}>
             <Image className="footer_image" src={Inderjit2} />
             <div className="img_description">
               <h4>Our CEO</h4>
-              <p>Inderjit Singh Sembhi</p>
+              <p>Sardar Inderjit Singh Sembhi</p>
             </div>
           </Col>
-          <Col className="footer_contacts">
+          <Col md={true} lg={3} className="footer_contacts footer_col">
             <p>
               <FaPhone className="footer_Icons" />
               <a className="footer_links" href="tel:+919815902613">
@@ -38,8 +40,8 @@ function Footer() {
             </p>
             <p>
               <FaEnvelope className="footer_Icons" />
-              <a className="footer_links" href="mailto:gogi.ishwar@yahoo.com">
-                gogi.ishwar@yahoo.com
+              <a className="footer_links" href="mailto:gogi_ishwar@yahoo.com">
+                gogi_ishwar@yahoo.com
               </a>
             </p>
             <Button

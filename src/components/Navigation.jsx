@@ -1,6 +1,7 @@
 import React from "react";
-import { Navbar, Nav } from "react-bootstrap";
+import { Navbar, Nav, Image } from "react-bootstrap";
 
+import Logo from "../Images/logo.JPG";
 import { Link } from "react-scroll";
 
 function Navigation() {
@@ -9,7 +10,7 @@ function Navigation() {
       {/* Link tag is used for the smooth scroll on the page */}
       <Link activeClass="active" to="home" smooth={true} duration={700}>
         <Navbar.Brand className="logo" href="#home">
-          ISHWAR
+          <Image className="logo" src={Logo} />
         </Navbar.Brand>
       </Link>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -30,6 +31,7 @@ function Navigation() {
           </Link>
         </Nav>
       </Navbar.Collapse>
+      <div className="nav_gradient"></div>
     </Navbar>
   );
 }

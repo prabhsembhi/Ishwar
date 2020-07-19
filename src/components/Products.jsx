@@ -8,16 +8,16 @@ function Products() {
     <section id="products">
       <Container fluid="true">
         <Row>
-          <h3 className="product_Heading">Our Products</h3>
+          <h2 className="product_Heading">Our Products</h2>
         </Row>
         <Row>
-          <Col>
+          <Col xs={12} md={true}>
             <Image className="img2" src={Product1} />
           </Col>
-          <Col>
+          <Col xs={12} md={true}>
             <Image className="img2" src={Product1} />
           </Col>
-          <Col>
+          <Col xs={12} md={true}>
             <Image className="img2" src={Product1} />
           </Col>
         </Row>
