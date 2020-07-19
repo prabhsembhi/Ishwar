@@ -9,10 +9,12 @@ h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 3.75rem;
 }
+
 h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 3rem;
 }
+
 h3 {
   font-family: "Montserrat", sans-serif;
 }
@@ -37,9 +39,11 @@ a {
   h1 {
     font-size: 3rem;
   }
+
   h2 {
     font-size: 2.2rem;
   }
+
   p {
     font-size: 1.1rem;
   }
@@ -48,13 +52,16 @@ a {
     font-size: 0.9rem;
   }
 }
+
 @media (max-width: 570px) {
   h1 {
     font-size: 2rem;
   }
+
   h2 {
     font-size: 1.5rem;
   }
+
   p {
     font-size: 1rem;
   }
@@ -81,6 +88,7 @@ a {
   z-index: 4;
   background-color: $secondary;
 }
+
 .nav_gradient {
   width: 100%;
   height: 10px;
@@ -122,6 +130,7 @@ a {
     visibility: hidden;
   }
 }
+
 @media (max-width: 570px) {
   .nav {
     width: 95%;
@@ -141,6 +150,7 @@ a {
   text-align: center;
   top: 50%;
 }
+
 @media (max-width: 570px) {
   #home {
     width: 95%;
@@ -162,6 +172,7 @@ a {
 .about_Description {
   padding-right: 30px;
 }
+
 .about_Description p {
   margin-top: 2rem;
 }
@@ -170,15 +181,18 @@ a {
   padding: 2rem;
   text-align: center;
 }
+
 .strengths_Icons {
   float: left;
   font-size: 2.8rem;
   height: 100%;
   margin-right: 20px;
 }
+
 .strength_Names {
   padding-top: 10px;
 }
+
 .strength_Boxes {
   display: inline-block;
   border-radius: 10px;
@@ -188,32 +202,39 @@ a {
   z-index: 1;
   text-align: left;
 }
+
 .box1 {
   background-color: wheat;
 }
+
 .box2 {
   background-color: #4592af;
 }
+
 .box3 {
   background-color: #ec823a;
 }
+
 @media (max-width: 570px) {
   #about {
     width: 95%;
     margin-top: 2rem;
   }
 }
+
 @media only screen and (max-width: 960px) {
   .img {
     max-width: 100%;
     float: none;
   }
 }
+
 @media only screen and (max-width: 1120px) {
   .strengths_Icons {
     font-size: 2rem;
     margin-right: 4px;
   }
+
   .strength_Boxes {
     margin: 0.2rem;
   }
@@ -243,6 +264,7 @@ a {
   padding: 1rem;
   margin: 3rem 0;
 }
+
 @media (max-width: 570px) {
   #products {
     width: 95%;
@@ -256,16 +278,19 @@ a {
     margin: 1.5rem 0;
   }
 }
+
 ////////////////////   contacts ////////////////////
 #contact {
   width: 60%;
   margin: auto;
 }
+
 .contact_Icons {
   font-size: 24px;
   margin: 10px;
   float: left;
 }
+
 .contact_links {
   font-family: "Eczar", serif;
   font-size: 1.18rem;
@@ -273,10 +298,12 @@ a {
   text-decoration: none;
   display: inline-block;
 }
+
 iframe {
   border-radius: 10px;
   float: right;
 }
+
 hr {
   border: 1.5px solid grey;
   border-bottom: 0;
@@ -291,45 +318,56 @@ hr {
     width: 95%;
     margin: auto;
   }
+
   #contact h2 {
     // font-size: 2rem;
   }
+
   .contact_Icons {
     font-size: 18px;
     margin: 10px 10px 10px 0;
     float: left;
   }
+
   .contact_links {
     font-size: 1rem;
   }
+
   iframe {
     float: none;
   }
 }
+
 ////////////////////  Footer    ////////////////////
 #footer {
   width: 80%;
   margin: auto;
 }
+
 .footer_image {
   float: left;
   width: 200px;
 }
+
 .img_description {
   position: relative;
   left: 10px;
 }
+
 .img_description p {
   font-size: 1rem;
 }
+
 .footer_contacts {
   padding-left: 50px;
 }
+
 .footer_Icons {
   font-size: 1.2rem;
   margin: 10px;
   float: left;
 }
+
 .footer_links {
   font-family: "Eczar", serif;
   font-size: 1rem;
@@ -337,6 +375,7 @@ hr {
   text-decoration: none;
   display: inline-block;
 }
+
 .last_row {
   font-size: 0.9rem;
   margin-bottom: 0;
@@ -348,24 +387,30 @@ hr {
 .developer {
   float: right;
 }
+
 .developer a {
   font-size: 0.9rem;
 }
+
 @media (max-width: 570px) {
   #footer {
     width: 95%;
   }
 }
+
 @media (max-width: 1030px) {
   .footer_image {
     width: 180px;
   }
+
   .footer_contacts {
     padding-left: 10px;
   }
+
   .footer_col {
     margin-top: 1rem;
   }
+
   .last_row {
     font-size: 0.7rem;
     padding: 1.5rem 0 0 0.3rem;
