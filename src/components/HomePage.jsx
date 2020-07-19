@@ -1,5 +1,4 @@
 import React from "react";
-import { Image, Container, Row, Col } from "react-bootstrap";
 
 function HomePage() {
   return (

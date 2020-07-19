@@ -6,7 +6,6 @@ import Products from "./Products";
 import Contact from "./Contact";
 import Footer from "./Footer";
 
-import { Container, Row, Col } from "react-bootstrap";
 //bootstrap css
 import "bootstrap/dist/css/bootstrap.min.css";
 

@@ -1,7 +1,6 @@
 import React from "react";
 import { Image, Container, Row, Col, Button } from "react-bootstrap";
 
-import Asset1 from "../Images/Asset1.png";
 import Inderjit2 from "../Images/Asset 8.png";
 import jagjit2 from "../Images/Asset 7.png";
 
@@ -9,8 +8,6 @@ import jagjit2 from "../Images/Asset 7.png";
 import { FaPhone, FaEnvelope } from "react-icons/fa";
 
 function Footer() {
-  var date = new Date();
-  var year = date.getFullYear;
   return (
     <section id="footer">
       <Container fluid="true">
